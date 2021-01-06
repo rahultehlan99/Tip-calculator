@@ -1,0 +1,69 @@
+*{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue;
+}
+
+.container{
+    display: grid;
+    background: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    height:400px;
+    width:350px;
+    margin: 70px auto;
+}
+
+
+p{
+    padding-left:20px;
+    font-size: medium;
+}
+
+h1{
+    background: rgb(226, 136, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    margin:0;
+    font-size: large;
+}
+
+input{
+    margin-bottom:10px;
+    margin-left:20px;
+    width:70%;
+}
+
+input:focus{
+    border:5px solid rgb(0, 255, 64);
+}
+
+#servicequa{
+    margin-left:20px;
+    width:70%;
+}
+
+.tip-show{
+
+   display: flex;
+   align-items: center;
+   justify-self: center;
+}
+
+
+button{
+    
+    background: rgb(61, 165, 224);
+    color:wheat;
+    border-radius: 10px;
+    height:30px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
