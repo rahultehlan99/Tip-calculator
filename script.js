@@ -10,7 +10,7 @@
         
         // invalid inputs   
        if(billamt<=0 || nop<=0 || service==0){
-           alert("chutiya sahi value dal");
+           alert("Please input correct information!!");
            return;
        }
         
